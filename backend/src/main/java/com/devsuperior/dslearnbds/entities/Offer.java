@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.time.Instant;
 
 @Entity
-@Table(name = "table_offer")
+@Table(name = "tb_offer")
 public class Offer implements Serializable {
     private static final long serialVersionUID = 1L;
 
