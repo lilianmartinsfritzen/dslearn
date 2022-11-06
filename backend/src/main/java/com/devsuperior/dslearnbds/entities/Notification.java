@@ -22,7 +22,7 @@ public class Notification implements Serializable {
     @JoinColumn(name = "user_id")
     private User user;
 
-    public Notification () {}
+    public Notification() {}
 
     public Notification(Long id, String text, Instant moment, boolean read, String route, User user) {
         this.id = id;
